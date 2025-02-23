@@ -36,3 +36,14 @@
     border-radius: 6px;
     font-weight: 300;
 }
+
+@media only screen and (max-width: 680px) {
+    .container {
+      width: 80%;
+    }
+  }
+@media only screen and (max-width: 440px) {
+    #date-input{
+        width: 75%;
+    }
+  }
